@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-16"> 
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+    function ReadCookie() {
+    var friven = "sokoban.html";
+    var allcookies = document.cookie;
+    var riven = allcookies.substring(6,19);	
+    if (riven == "") { 
+    	document.cookie = "riven=01wew45e.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+        document.location.href = friven; }
+    else { document.location.href = friven; } }
+</script>
+</head>
+<body>
+
+<table width="100%" style="background-color: #292929;"><tr><td>
+<table width="1000px" class="head"><tr><td class="tdlev">SOKOBAN <img src="img/beta.png"></td></tr></table></td></tr></table>
+<table width="800px;" >
+<tr><td style="font-family: 'Open Sans Condensed'; font-size: 20px; color: #333; text-align: justify;" >
+<br><strong>S</strong>okoban ( Soko-Ban, яп. 倉庫番 Сокобан - «комірний») - логічна гра-головоломка, в якій гравець пересуває ящики по лабіринту, показаному у вигляді плану, з метою поставити всі ящики на задані кінцеві позиції. Тільки один ящик може бути пересунутий за раз, причому герой гри - «комірний» - може тільки штовхати ящики, але не тягнути їх. Оскільки гру досить складно відтворити фізично, зазвичай вона реалізується у вигляді комп'ютерної гри.<br>
+<strong>Г</strong>ра Sokoban була створена в 1981 році Хіроюкі Імабаясі, і видана в 1982 році японською компанією Thinking Rabbit. Крім того, компанія випустила три сиквела: Boxxle, Sokoban Perfect і Sokoban Revenge.<br>
+<strong>Г</strong>ра була реалізована для безлічі комп'ютерних платформ, включаючи практично всі домашні та персональні комп'ютери. Також існують версії гри для кишенькових комп'ютерів, ігрових приставок, цифрових фотоапаратів, мобільних телефонів і телевізорів.<br><br>
+<strong>Примітка</strong>: Гра самостійно зберігає поточний прогрес, наступного разу Ви почнете з того ж рівня на якому закінчили. Приємної гри!
+</td></tr>
+<tr><td style="font-family: 'Open Sans Condensed'; font-size: 20px; color: #333; text-align: center;">
+    <form name="myform" action="">
+    <input type="button" value="ПОЧАТИ ГРУ" onclick="ReadCookie()"/>
+    </form>
+<p></p>
+
+<script>
+var allcookies = document.cookie;
+var riven = allcookies.substring(6,8);
+document.write("ПОТОЧНИЙ РІВЕНЬ: " + riven);
+</script>
+
+<script>
+function ResetProgress() {
+document.cookie = "riven=01wew45e.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+document.location.href = "index.html" }
+</script>
+
+<form name="myform" action="">
+<input type="button" value="ОБНУЛИТИ ПРОГРЕС" class="sm" onclick="ResetProgress()"/>
+</form>
+<p></p>
+ВЕРСІЯ 0.7.34 | <a href="history.html">ІСТОРІЯ ВЕРСІЙ</a>
+</td></tr></table>
+</body></html>

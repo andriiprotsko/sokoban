@@ -1,0 +1,89 @@
+.s {background: #ffffff;}
+.w {background: url(img/obrick.png);}
+.q {background: url(img/bbrick.png);}
+.e {background: url(img/rbrick.png);}
+.r {background: url(img/lbrick.png);}
+.c {background: url(img/box.jpg);}
+.p {background: url(img/placer.jpg);}
+.a {background: url(img/placedbox.jpg);}
+.y, .Y {background: url(img/you.png);}
+
+html, body, #page {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0; }
+
+input {
+border: 0px;
+font-family: 'Open Sans Condensed';
+font-size: 40px;
+color: #333;
+background: #ffffff; }
+
+input.sm {
+border: 0px;
+font-family: 'Open Sans Condensed';
+font-size: 20px;
+color: #aaa;
+background: #ffffff; }
+
+input:hover.sm, input:focus.sm {
+  background: #fff;
+  color: red; }
+
+table {
+margin: 0 auto;
+background: #ffffff; }
+
+table.head {
+background-color: #292929;
+font-family: 'Open Sans Condensed';
+font-size: 40px;
+color: #f0f0f0; }
+
+td {
+padding: 6px 6px;
+text-align:center;
+vertical-align:top; }
+
+td.tdlev {
+font-family: 'Open Sans Condensed';
+font-size: 40px;
+color: #ccc; }
+
+span.riv {
+padding-left:76px;
+font-family: 'Open Sans Condensed';
+font-size: 23px;
+color: #f0f0f0; }
+
+a:link {
+    text-decoration: none; }
+
+a:visited {
+    text-decoration: none;}
+
+div {width: 40px; height: 40px; float: left;}
+#level01, #level02 {width: 320px; height: 320px;}
+#level03 {width: 760px; height: 440px;}
+#level04 {width: 560px; height: 360px;}
+#level05 {width: 680px; height: 440px;}
+#level06, #level16, #level27 {width: 760px; height: 560px;}
+#level07 {width: 680px; height: 520px;}
+#level08 {width: 480px; height: 440px;}
+#level09 {width: 520px; height: 440px;}
+#level10 {width: 280px; height: 240px;}
+#level11 {width: 640px; height: 640px;}
+#level12 {width: 680px; height: 560px;}
+#level13, #level23, #level24, #level26, #level28, #level29 {width: 760px; height: 640px;}
+#level14 {width: 760px; height: 600px;}
+#level15 {width: 680px; height: 560px;}
+#level17 {width: 720px; height: 640px;}
+#level18 {width: 680px; height: 640px;}
+#level19 {width: 560px; height: 600px;}
+#level20 {width: 280px; height: 320px;}
+#level21 {width: 640px; height: 560px;}
+#level22 {width: 760px; height: 520px;}
+#level25 {width: 600px; height: 600px;}
+#level30 {width: 280px; height: 280px;}

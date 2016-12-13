@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-16">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="sokoban.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+var allcookies = document.cookie;
+var divId = "level"+allcookies.substring(6,8);
+var sokolevId = "sokolevel"+allcookies.substring(6,8)+"();";
+document.getElementById("levelel").innerHTML = '<div id="divId">';
+</script>
+
+</head>
+<body>
+<script type="text/javascript">OffScroll();</script>
+<table width="100%" style="background-color: #292929;"><tr><td>
+<table width="800px" class="head"><tr><td width="600px" class="tdlev">SOKOBAN <img src="img/beta.png"><span class="riv"><sup>РІВЕНЬ <span id="cur_lev"></span></sup></span></td><td width="200px"><a href="index.html"><img src="img/home.png" title="На головну"></a>&nbsp;<a href="" onClick="location.reload();"><img src="img/restart.png" title="Почати рівень спочатку"></a></td></tr></table></td></tr></table>
+<table><tr><td><br><br>
+<script>document.writeln('<div id="' + divId + '">');</script>
+<script>document.writeln('<script type="text/javascript">' + sokolevId + '<' + '/script>');</script>
+</td></tr></table>
+
+<script>
+var allcookies = document.cookie;
+var riven = allcookies.substring(6,8);
+var divId = "level"+riven;
+document.getElementById("cur_lev").innerHTML = riven;
+</script>
+
+</body></html>
+
+
