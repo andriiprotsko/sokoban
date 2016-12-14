@@ -1,11 +1,16 @@
-﻿function sokolevel01() {
+function setCookie(cname, cvalue, exdays) {
+    var expires = "expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+    document.cookie = cname + "=" + cvalue + ";" + expires;
+}
+
+function sokolevel01() {
 (function() {var levelData = ["  www   ","  wpw   ","  w wwww","wwwc cpw","wp cywww","wwwwcw  ","   wpw  ","   www  "], level = [[], [] ,[] ,[] ,[] ,[] ,[] ,[]];
 var x, y, dx, dy, cell, fwdCell, fwd2cell, level01 = document.getElementById('level01');
 for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level01.appendChild(div); 
+        level01.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -25,11 +30,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Перший рівень успішно пройдений!');
-document.cookie = "riven=02s768gb.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '02s768gb.html');
 window.location.reload(false);
 }); })(); }
 
@@ -40,7 +45,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level02.appendChild(div); 
+        level02.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -60,11 +65,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Другий рівень позаду!');
-document.cookie = "riven=03v46htu.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '03v46htu.html');
 window.location.reload(false);
 }); })(); }
 
@@ -76,7 +81,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level03.appendChild(div); 
+        level03.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -96,11 +101,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Третій рівень пройдено!');
-document.cookie = "riven=04d45ghf.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '04d45ghf.html');
 window.location.reload(false);
 }); })(); }
 
@@ -112,7 +117,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level04.appendChild(div); 
+        level04.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -132,11 +137,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('І четвертий рівень позаду!');
-document.cookie = "riven=05poiwej.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '05poiwej.html');
 window.location.reload(false);
 }); })(); }
 
@@ -148,7 +153,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level05.appendChild(div); 
+        level05.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -168,11 +173,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('П\'ятий рівень пройдено!');
-document.cookie = "riven=06ghuian.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '06ghuian.html');
 window.location.reload(false);
 }); })(); }
 
@@ -184,7 +189,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level06.appendChild(div); 
+        level06.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -204,11 +209,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Знову перемога. Шостий рівень пройдено!');
-document.cookie = "riven=07zsrvse.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '07zsrvse.html');
 window.location.reload(false);
 }); })(); }
 
@@ -220,7 +225,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level07.appendChild(div); 
+        level07.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -240,11 +245,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Сьомий рівень позаду!');
-document.cookie = "riven=08verler.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '08verler.html');
 window.location.reload(false);
 }); })(); }
 
@@ -256,7 +261,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level08.appendChild(div); 
+        level08.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -276,11 +281,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Восьмий рівень успішно пройдений!');
-document.cookie = "riven=09weghit.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '09weghit.html');
 window.location.reload(false);
 }); })(); }
 
@@ -292,7 +297,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level09.appendChild(div); 
+        level09.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -312,11 +317,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('А ось і дев\'ятий рівень позаду!');
-document.cookie = "riven=10gvieur.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '10gvieur.html');
 window.location.reload(false);
 }); })(); }
 
@@ -328,7 +333,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level10.appendChild(div); 
+        level10.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -348,11 +353,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Десята перемога!');
-document.cookie = "riven=11ojjbvc.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '11ojjbvc.html');
 window.location.reload(false);
 }); })(); }
 
@@ -364,7 +369,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level11.appendChild(div); 
+        level11.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -373,7 +378,7 @@ window.addEventListener('keydown', function(e) {
     else if (e.keyCode == 40) dx = 0, dy = 1;
     else return;
     if ((fwdCell = level[y + dy][x + dx]).className == 'q') return;
-    var cell = level[y][x];  
+    var cell = level[y][x];
     if (fwdCell.className == 'c' || fwdCell.className == 'a') {
         var fwd2cell = level[y + dy + dy][x + dx + dx];
         if (fwd2cell.className == 'q' || fwd2cell.className == 'c' || fwd2cell.className == 'a')
@@ -384,11 +389,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Одинадцятий рівень пройдено!');
-document.cookie = "riven=12iuyute.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '12iuyute.html');
 window.location.reload(false);
 }); })(); }
 
@@ -400,7 +405,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level12.appendChild(div); 
+        level12.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -420,11 +425,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Дванадцятий рівень пройдено!');
-document.cookie = "riven=13moimkl.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '13moimkl.html');
 window.location.reload(false);
 }); })(); }
 
@@ -436,7 +441,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level13.appendChild(div); 
+        level13.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -456,11 +461,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Тринадцятий рівень пройдено!');
-document.cookie = "riven=14qasdfg.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '14qasdfg.html');
 window.location.reload(false);
 }); })(); }
 
@@ -472,7 +477,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level14.appendChild(div); 
+        level14.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -492,11 +497,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Було важко? Чотирнадцятий рівень позаду!');
-document.cookie = "riven=15rgnhmn.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '15rgnhmn.html');
 window.location.reload(false);
 }); })(); }
 
@@ -508,7 +513,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level15.appendChild(div); 
+        level15.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -528,11 +533,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Знову перемога! П\'ятнадцятий рівень пройдено!');
-document.cookie = "riven=16mioijm.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '16mioijm.html');
 window.location.reload(false);
 }); })(); }
 
@@ -544,7 +549,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level16.appendChild(div); 
+        level16.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -564,11 +569,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Шістнадцятий рівень уже позаду!');
-document.cookie = "riven=17yghbuj.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '17yghbuj.html');
 window.location.reload(false);
 }); })(); }
 
@@ -580,7 +585,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level17.appendChild(div); 
+        level17.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -600,11 +605,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Сімнадцятий рівень успішно пройдений!');
-document.cookie = "riven=18emihds.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '18emihds.html');
 window.location.reload(false);
 }); })(); }
 
@@ -616,7 +621,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level18.appendChild(div); 
+        level18.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -636,11 +641,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('А ось і вісімнадцятий рівень уже позаду!');
-document.cookie = "riven=19widuck.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '19widuck.html');
 window.location.reload(false);
 }); })(); }
 
@@ -652,7 +657,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level19.appendChild(div); 
+        level19.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -672,11 +677,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Дев\'ятнадцятий рівень залишається позаду!');
-document.cookie = "riven=20unweun.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '20unweun.html');
 window.location.reload(false);
 }); })(); }
 
@@ -688,7 +693,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level20.appendChild(div); 
+        level20.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -708,11 +713,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Двадцята перемога!');
-document.cookie = "riven=21vsdrge.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '21vsdrge.html');
 window.location.reload(false);
 }); })(); }
 
@@ -724,7 +729,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level21.appendChild(div); 
+        level21.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -744,11 +749,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Двадцять перший позаду!');
-document.cookie = "riven=22qwrery.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '22qwrery.html');
 window.location.reload(false);
 }); })(); }
 
@@ -760,7 +765,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level22.appendChild(div); 
+        level22.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -769,7 +774,7 @@ window.addEventListener('keydown', function(e) {
     else if (e.keyCode == 40) dx = 0, dy = 1;
     else return;
     if ((fwdCell = level[y + dy][x + dx]).className == 'e') return;
-    var cell = level[y][x]; 
+    var cell = level[y][x];
     if (fwdCell.className == 'c' || fwdCell.className == 'a') {
         var fwd2cell = level[y + dy + dy][x + dx + dx];
         if (fwd2cell.className == 'e' || fwd2cell.className == 'c' || fwd2cell.className == 'a')
@@ -780,11 +785,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Двадцятий другий рівень пройдено!');
-document.cookie = "riven=23poiutg.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '23poiutg.html');
 window.location.reload(false);
 }); })(); }
 
@@ -796,7 +801,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level23.appendChild(div); 
+        level23.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -816,11 +821,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Двадцять третій рівень успішно пройдено!');
-document.cookie = "riven=24zsrthn.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '24zsrthn.html');
 window.location.reload(false);
 }); })(); }
 
@@ -832,7 +837,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level24.appendChild(div); 
+        level24.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -852,11 +857,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('І двадцять четвертий рівень теж позаду!');
-document.cookie = "riven=25muiyfa.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '25muiyfa.html');
 window.location.reload(false);
 }); })(); }
 
@@ -868,7 +873,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level25.appendChild(div); 
+        level25.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -888,11 +893,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Двадцять п\'ятий рівень пройдено!');
-document.cookie = "riven=26lfytuy.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '26lfytuy.html');
 window.location.reload(false);
 }); })(); }
 
@@ -904,7 +909,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level26.appendChild(div); 
+        level26.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -924,11 +929,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Він був великий, але і його пройдено!');
-document.cookie = "riven=27bkwrla.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '27bkwrla.html');
 window.location.reload(false);
 }); })(); }
 
@@ -940,7 +945,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level27.appendChild(div); 
+        level27.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -960,11 +965,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Двадцятий сьомий рівень позаду!');
-document.cookie = "riven=28ywjefw.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '28ywjefw.html');
 window.location.reload(false);
 }); })(); }
 
@@ -976,7 +981,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level28.appendChild(div); 
+        level28.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -996,11 +1001,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Двадцять восьмий рівень теж пройдено!');
-document.cookie = "riven=29posdfg.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '29posdfg.html');
 window.location.reload(false);
 }); })(); }
 
@@ -1012,7 +1017,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level29.appendChild(div); 
+        level29.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -1032,11 +1037,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Тридцятий рівень залишився позаду!');
-document.cookie = "riven=30neroop.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '30neroop.html');
 window.location.reload(false);
 }); })(); }
 
@@ -1048,7 +1053,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level30.appendChild(div); 
+        level30.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -1068,11 +1073,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Тридцятий рівень залишився позаду!');
-document.cookie = "riven=31zkdurh.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '31zkdurh.html');
 window.location.reload(false);
 }); })(); }
 
@@ -1084,7 +1089,7 @@ for (var n = 0; n < levelData.length; n++)
     for (var m = 0; m < levelData[n].length; m++) {
         level[n].push(div = document.createElement('div'));
         div.className = levelData[n][m] == ' ' ? 's' : levelData[n][m];
-        level12.appendChild(div); 
+        level12.appendChild(div);
         if (levelData[n][m] == 'y')  x = m, y = n; }
 window.addEventListener('keydown', function(e) {
     if (e.keyCode == 37) dx = -1, dy = 0;
@@ -1104,11 +1109,11 @@ window.addEventListener('keydown', function(e) {
     cell.className = cell.className == 'Y' ? 'p' : 's';
     fwdCell.className = fwdCell.className == 'p' ? 'Y' : 'y';
     x += dx; y += dy;
-    for (var n = 0; n < level.length; n++) 
-        for (var m = 0; m < level[n].length; m++) 
+    for (var n = 0; n < level.length; n++)
+        for (var m = 0; m < level[n].length; m++)
             if (level[n][m].className == 'c') return;
 alert('Дванадцятий рівень пройдено!');
-document.cookie = "riven=31zkdurh.html; expires=Mon, 31 Dec 2029 10:00:00 GMT;";
+setCookie('riven', '31zkdurh.html');
 window.location.reload(false);
 }); })(); }
 
