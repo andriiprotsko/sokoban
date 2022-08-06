@@ -1,10 +1,10 @@
 .s {background: #ffffff;}
-.w {background: url(img/obrick.png);}
+.w {background: url(img/obrick.png); }
 .q {background: url(img/bbrick.png);}
 .e {background: url(img/rbrick.png);}
 .r {background: url(img/lbrick.png);}
 .c {background: url(img/box.jpg);}
-.p {background: url(img/placer.jpg);}
+.p {background: url(img/blur.svg); opacity: .50;}
 .a {background: url(img/placedbox.jpg);}
 .y, .Y {background: url(img/you.png);}
 
@@ -16,14 +16,14 @@ padding: 0; }
 
 input {
 border: 0px;
-font-family: 'Open Sans Condensed';
+font-family: 'Open Sans', sans-serif;
 font-size: 40px;
 color: #333;
 background: #ffffff; }
 
 input.sm {
 border: 0px;
-font-family: 'Open Sans Condensed';
+font-family: 'Open Sans', sans-serif;
 font-size: 20px;
 color: #aaa;
 background: #ffffff; }
@@ -38,7 +38,7 @@ background: #ffffff; }
 
 table.head {
 background-color: #292929;
-font-family: 'Open Sans Condensed';
+font-family: 'Open Sans', sans-serif;
 font-size: 40px;
 color: #f0f0f0; }
 
@@ -48,18 +48,19 @@ text-align:center;
 vertical-align:top; }
 
 td.tdlev {
-font-family: 'Open Sans Condensed';
-font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  text-align: left;
 color: #ccc; }
 
 span.riv {
 padding-left:76px;
-font-family: 'Open Sans Condensed';
+font-family: 'Open Sans', sans-serif;
 font-size: 23px;
 color: #f0f0f0; }
 
 a:link {
-    text-decoration: none; }
+    text-decoration: none; color: #aaa; }
 
 a:visited {
     text-decoration: none;}
