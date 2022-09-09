@@ -1,0 +1,72 @@
+/*   ---   LEVEL DATA - SPRITES   ---   */
+
+.s {background-color: #ffffff;}
+.dark-mode .s {background-color: #333;}
+
+.w {background-image: url(../img/wall.svg); opacity: .8;}
+.dark-mode .w {background-image: url(../img/wall.svg); opacity: .9;}
+
+.c {background-image: url(../img/box.svg); opacity: .6;}
+.dark-mode .c {background-image: url(../img/box.svg);opacity: .8;}
+
+.p {background-image: url(../img/blur.svg); opacity: .5;}
+.dark-mode .p {background-image: url(../img/blur-dark-mode.png);}
+
+.a {background-image: url(../img/placedbox.svg); opacity: .6;}
+.dark-mode .a {background-image: url(../img/placedbox.svg);opacity: .8;}
+
+.y, .Y {background-image: url(../img/player_23.png); max-width: 40px; max-height: 40px;}
+
+/*   ---   LEVEL DATA | LEVELS   ---   */
+
+#level01 {width: 320px; height: 320px;}
+#level02 {width: 320px; height: 320px;}
+#level03 {width: 760px; height: 440px;}
+#level04 {width: 560px; height: 360px;}
+#level05 {width: 680px; height: 440px;}
+#level06 {width: 760px; height: 560px;}
+#level07 {width: 680px; height: 520px;}
+#level08 {width: 480px; height: 440px;}
+#level09 {width: 520px; height: 440px;}
+#level10 {width: 280px; height: 240px;}
+#level11 {width: 640px; height: 640px;}
+#level12 {width: 680px; height: 560px;}
+#level13 {width: 760px; height: 640px;}
+#level14 {width: 760px; height: 600px;}
+#level15 {width: 680px; height: 560px;}
+#level16 {width: 760px; height: 560px;}
+#level17 {width: 720px; height: 640px;}
+#level18 {width: 680px; height: 640px;}
+#level19 {width: 560px; height: 600px;}
+#level20 {width: 280px; height: 320px;}
+#level21 {width: 640px; height: 560px;}
+#level22 {width: 760px; height: 520px;}
+#level23 {width: 760px; height: 640px;}
+#level24 {width: 760px; height: 640px;}
+#level25 {width: 600px; height: 600px;}
+#level26 {width: 760px; height: 640px;}
+#level27 {width: 760px; height: 560px;}
+#level28 {width: 760px; height: 640px;}
+#level29 {width: 760px; height: 640px;}
+#level30 {width: 280px; height: 280px;}
+#level31 {width: 600px; height: 480px;}
+#level32 {width: 760px; height: 520px;}
+#level33 {width: 680px; height: 600px;}
+#level34 {width: 760px; height: 520px;}
+#level35 {width: 760px; height: 560px;}
+#level36 {width: 720px; height: 640px;}
+#level37 {width: 520px; height: 600px;}
+#level38 {width: 480px; height: 600px;}
+#level39 {width: 560px; height: 600px;}
+#level40 {width: 240px; height: 280px;}
+#level41 {width: 760px; height: 640px;}
+#level42 {width: 760px; height: 640px;}
+#level43 {width: 760px; height: 600px;}
+#level44 {width: 440px; height: 440px;}
+#level45 {width: 760px; height: 640px;}
+#level46 {width: 680px; height: 640px;}
+#level47 {width: 760px; height: 600px;}
+#level48 {width: 720px; height: 520px;}
+#level49 {width: 760px; height: 440px;}
+#level50 {width: 280px; height: 280px;}
+#level_60 {width: 280px; height: 280px;}
